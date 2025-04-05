@@ -1,0 +1,132 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+}
+
+p {
+    color: #8C8A97;
+}
+
+#navbar {
+    padding: 20px 30px;
+}
+
+
+.botao {
+    background-color: #e50914;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+}
+
+.botao a {
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #b00610;
+}
+
+.navlogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    background: url('/imagens/banner-image.png') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+.hero-conteudo {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-conteudo h1 {
+    font-size: 42px;
+}
+
+#personagens {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+.personagem {
+    overflow: hidden;
+    width: 240px;
+}
+
+.personagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.formularioa {
+    margin: 50%;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+#formulario {
+    background: url('/imagens/banner-image-2.png') no-repeat center/cover;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 50px;
+}
+
+.form input, .form textarea{
+    padding: 10px;
+    font-size: 16px;
+    width: 200%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+}
+
+
+.formulariobotao {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
